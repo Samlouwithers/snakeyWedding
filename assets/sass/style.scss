@@ -1,0 +1,379 @@
+@import 'inc/reset';
+@import 'inc/mixins';
+
+/*@font-face {
+  font-family: 'ChunkFive';
+  src: url('../fonts/ChunkFive/Chunkfive-webfont.eot');
+  src: url('../fonts/ChunkFive/Chunkfive-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/ChunkFive/Chunkfive-webfont.woff') format('woff'),
+       url('../fonts/ChunkFive/Chunkfive-webfont.ttf') format('truetype'),
+       url('../fonts/ChunkFive/Chunkfive-webfont.svg#webfont90E2uSjN') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}*/
+
+/* A Linux- and Windows-friendly sans-serif font stack: http://prospects.mhurrell.co.uk/post/updating-the-helvetica-font-stack */
+body {
+  background: #F5F5F5;
+  font: 13px Helmet, Freesans, sans-serif;
+  //padding: 65px 0 0;
+}
+
+/* Using local fonts? Check out Font Squirrel's webfont generator: http://www.fontsquirrel.com/tools/webfont-generator */
+
+/* We like off-black for text. */
+body, select, input, textarea {color: #333;}
+
+a {color: #03f;}
+a:hover {color: #69f;}
+
+/* Custom text-selection colors (remove any text shadows: http://twitter.com/miketaylr/status/12228805301) */
+// ::-moz-selection{background: #fcd700; color: #fff; text-shadow: none;}
+// ::selection {background: #fcd700; color: #fff; text-shadow: none;}
+
+/*  j.mp/webkit-tap-highlight-color */
+a:link {-webkit-tap-highlight-color: #fcd700;}
+
+ins {background-color: #fcd700; color: #000; text-decoration: none;}
+mark {background-color: #fcd700; color: #000; font-style: italic; font-weight: bold;}
+
+/* Mozilla dosen't style placeholders by default */
+input:-moz-placeholder { color:#a9a9a9; }
+textarea:-moz-placeholder { color:#a9a9a9; }
+
+/* let's give blockquotes *some* default styling, because unstyled blockquotes are dangerous */
+blockquote {padding: 16px; background: #eee;}
+
+header,
+section.content {
+  min-height: 100vh;
+  padding: 85px 0 20px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 { font-family: 'Patua One', cursive; }
+
+
+
+/* Main navigation
+-------------------------------------------------------------------------------*/
+nav {
+  background: #fff;
+  border-bottom: 1px solid #999;
+  border-top: 5px solid #333;
+  height: 65px;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 9999;
+
+  ul {
+    width: 100%;
+
+    li { 
+      float: left;
+      width: 20%;
+
+      a {
+        border-bottom: 1px solid #999;
+        color: #666;
+        display: block;
+        font-family: 'Raleway', sans-serif;
+        font-size: 20px;
+        font-weight: 300;
+        height: 60px;
+        letter-spacing: -1px;
+        line-height: 60px;  
+        text-align: center;
+        text-decoration: none;
+        @include transition(all,0.2s,ease);
+      }
+
+      a:hover {
+        background-color: #FFDFD4;
+        border-color: #FF5722;
+        color: #FF5722;        
+      }
+    }
+
+    li.title {
+      margin-right: 20%;
+      width: 20%;
+
+      a {
+        font-family: 'Patua One', cursive;
+        font-size: 30px;
+        letter-spacing: 3px;
+        text-align: left;
+        text-transform: uppercase;
+        //text-shadow: 0 -1px 0 #000;
+      }
+      a:hover {
+        /*background-color: #f5f5f5;
+        border-color: #000;
+        color: #333;*/
+        background-color: #fff;
+        border-color: #999;
+        color: #000;
+      }
+
+    }
+
+  }
+
+}
+
+
+
+/* Header
+-------------------------------------------------------------------------------*/
+header {
+  position: relative;
+  
+  .video-overlay {
+    background-color: rgba(245, 245, 245, 0.75);
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    display: block;
+    overflow: hidden;
+    top: 0;
+    z-index: -1;
+  }
+
+  .video-container {
+    position: absolute;
+    z-index: -5;
+    width: 100%;
+    height: 100vh;
+    display: block;
+    overflow: hidden;
+    top: 0;
+
+    video {
+      position: absolute;
+      right: 0;
+      left: 0;
+      top: 0;
+      min-width: 100%;
+      min-height: 100%;
+      z-index: -100;
+      background-color: #3d4b55;
+      background-size: cover;
+    }
+  }
+
+  .wrapper {
+
+    z-index: 9998;
+
+    a.main_title {
+      color: #333;
+      display: block;
+      margin: 0 0 100px;
+      padding: 40px 125px 0;
+      text-align: center;
+      text-decoration: none;
+      @include transition(all,0.2s,ease);
+
+      h1 {
+        color: #FF5722;
+        font-size: 53px;
+        letter-spacing: -1px;
+        line-height: 53px; 
+        margin: 0 0 10px;
+        text-shadow: 0 -1px 0 #7F2B11;
+        text-transform: uppercase;
+        @include transition(all,0.2s,ease);
+
+        span.greyed_out {
+          color: #333;
+          text-shadow: 0 -1px 0 #000;
+          @include transition(all,0.2s,ease);
+        }
+      }
+
+      h2 {
+        color: #666;
+        font-size: 30px;
+        font-weight: 300;
+        line-height: 30px;
+      }
+    }
+
+    .selected-work {
+
+      .left { 
+        float: left;
+        width: 40%;
+      }
+      .right { 
+        float: right;
+        width: 60%;
+      }
+
+      ul {
+        li { 
+          float: left; 
+          margin: 0 0 20px 3%;
+          width: 47%;
+
+          a {
+            background-repeat: no-repeat;
+            background-position: center center;
+            display: block;
+            height: 190px;
+            position: relative;
+            @include transition(all,0.2s,ease);
+
+            .overlay,
+            .overlay-content {
+              bottom: 0;
+              color: #fff;
+              font-family: 'Raleway', sans-serif;
+              opacity: 0;
+              position: absolute;
+              text-align: center;
+              top: 0;
+              @include transition(all,0.2s,ease);
+              width: 100%;
+              z-index: 9998;
+            }
+
+            .overlay-content {
+              z-index: 9999;
+            }
+
+          }
+
+          a:hover {
+            .overlay { opacity: 0.75; }
+            .overlay-content { opacity: 1; }
+          }
+        }
+
+        li.hero-list-1 a {
+          background-color: #370028;
+          background-image: url(../img/work_list_1.png);
+        }
+
+        li.hero-list-1 a:hover .overlay { background: #370028; }
+
+        li.hero-list-1 a .overlay-content,
+        li.hero-list-1 a:hover .overlay-content { 
+          font-size: 25px;
+          padding: 80px 0 0;
+        }
+
+
+        li.hero-list-2 a {
+          background-color: #2d3343;
+          background-image: url(../img/work_list_2.png);
+        }
+
+        li.hero-list-2 a:hover .overlay { background: #606d8f; }
+
+        li.hero-list-2 a .overlay-content,
+        li.hero-list-2 a:hover .overlay-content { 
+          font-size: 25px;
+          padding: 80px 0 0;
+        }
+
+
+        li.hero-list-3 a {
+          background-color: #2C3E50;
+          background-image: url(../img/work_list_3.png);
+        }
+
+        li.hero-list-3 a:hover .overlay { 
+          background: #2C3E50; 
+          opacity: 0.85;
+        }
+
+        li.hero-list-3 a .overlay-content,
+        li.hero-list-3 a:hover .overlay-content { 
+          font-size: 25px;
+          padding: 61px 25px 0;
+        }
+
+
+        li.hero-list-4 a {
+          background-color: #fdd900;
+          background-image: url(../img/work_list_4.png);
+        }
+
+        li.hero-list-4 a:hover .overlay { 
+          background: #fdd900; 
+          opacity: 0.9;
+        }
+
+        li.hero-list-4 a .overlay-content,
+        li.hero-list-4 a:hover .overlay-content { 
+          color: #000;
+          font-size: 25px;
+          padding: 61px 25px 0;
+        }
+
+      }
+
+      ul.featured {
+        li {
+          margin: 0; 
+          width: 100%; 
+
+          a {
+            background-color: #333;
+            background-image: url(../img/work_list_featured.png);
+            background-repeat: no-repeat;
+            background-position: center top;
+            height: 400px;
+          }
+
+          a:hover { background-color: #666; }
+
+        }
+      }
+
+    }
+
+  }
+
+}
+
+
+
+/* Sub-sections
+-------------------------------------------------------------------------------*/
+#work,
+#contact {
+  background: #FFDFD4;
+  color: #fff;
+}
+
+
+
+/* Media queries
+-------------------------------------------------------------------------------*/
+@media screen and (min-width: 1000px) {
+
+  .wrapper {
+    margin: 0 auto;
+    width: 980px;
+  }
+
+}
+
+
+
+/* Print styles
+-------------------------------------------------------------------------------*/
+@media print {
+
+
+
+}
