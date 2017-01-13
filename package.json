@@ -1,0 +1,23 @@
+{
+  "name": "snakeywedding",
+  "version": "1.0.0",
+  "description": "snakes get married",
+  "main": "index.php",
+  "scripts": {
+    "test": "test snake"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Samlouwithers/snakeyWedding.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Samlouwithers/snakeyWedding/issues"
+  },
+  "homepage": "https://github.com/Samlouwithers/snakeyWedding#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0"
+  }
+}
