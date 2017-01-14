@@ -1,17 +1,24 @@
-'use strict';
+var gulp = require('gulp'),
+	sass = require('gulp-sass'),
+	connect = require('gulp-connect');
 
-var gulp = require('gulp');
-var sass = require('gulp-sass');
-
-gulp.task('sass', function () {
-  return gulp.src('./sass/**/*.scss')
+gulp.task('styles', function () {
+  return gulp.src('./assets/sass/**/*.scss')
     .pipe(sass().on('error', sass.logError))
-    .pipe(gulp.dest('./css'));
+    .pipe(gulp.dest('./assets/css'))
+	.pipe(connect.reload());
 });
 
-gulp.task('sass:watch', function () {
-  gulp.watch('./assets/**/*.scss', ['sass']);
+gulp.task('connect', function() {
+    connect.server({
+        livereload: true
+    });
+});
+
+gulp.task('watch', function () {
+  	gulp.watch('./assets/sass/**/*.scss', ['styles']);
+  	//livereload.listen();
 });
  
 // The default task (called when you run `gulp` from cli) 
-gulp.task('default', ['watch', 'sass']);
+gulp.task('default', ['watch', 'connect']);
