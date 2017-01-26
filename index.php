@@ -26,6 +26,7 @@
 
 	<link rel="shortcut icon" href="favicon.ico" />
 	<link href="https://fonts.googleapis.com/css?family=Patua+One|Raleway:300,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lato|Playball" rel="stylesheet">
 	<link rel="stylesheet" href="assets/css/style.css" />
 
 	<script src="assets/js/libs/modernizr-3.3.1.min.js"></script>
@@ -54,10 +55,12 @@
 		<div class="wrapper">
 		
 			<ul>
-				<li class="title"><a href="index">Steed</a></li>
-				<li><a href="work">work</a></li>
-				<li><a href="about">about</a></li>
-				<li><a href="contact">contact</a></li>
+				<li class="title"><a href="index">&hearts; August 18 &hearts;</a></li>
+				<li><a href="work">Our Story</a></li>
+				<li><a href="about">Event Info</a></li>
+				<li><a href="contact">Wedding Party</a></li>
+				<li><a href="contact">RSVP</a></li>
+				<li><a href="contact">Registry</a></li>
 			</ul>
 
 		</div>
@@ -71,35 +74,25 @@
 		<div class="video-overlay"></div>
 		<div class="video-container">
 			<video autoplay loop class="abs" preload="auto">
-				<source src="/assets/videos/Rolling-horse.webm" type="video/webm">
-				<source src="/assets/videos/Rolling-horse.mp4" type="video/mp4">
-				<source src="/assets/videos/Rolling-horse.ogv" type="video/ogv">
+				<source src="/assets/videos/Winter-Grass.webm" type="video/webm">
+				<source src="/assets/videos/Winter-Grass.mp4" type="video/mp4">
+				<source src="/assets/videos/Winter-Grass.ogv" type="video/ogv">
 			</video>
 		</div>
+		<div class="wreath">
+			<img src="/assets/img/wreath.png" alt="wreath">
+		</div>
+
 
 		<div class="wrapper">
 
 			<a class="main_title" href="/">
-				<h1><span class="greyed_out">Everyone's Trusty</span> Steed</h1>
-				<h2>We're a tiny shop based in Boston, Massachusetts specializing in web development and visual identity</h2>
+				<h1><span class="greyed_out">Happily Ever After</h1>
 			</a>
 
-			<div class="selected-work clearfix">
+			<div class="wreath2 clearfix">
 
-				<div class="left">
-					<ul class="featured">
-						<li><a href=""></a></li>
-					</ul>
-				</div>
-
-				<div class="right">
-					<ul>
-						<li class="hero-list-1"><a href=""><span class="overlay"></span><span class="overlay-content">Locks Landing Salon</span></a></li>
-						<li class="hero-list-2"><a href=""><span class="overlay"></span><span class="overlay-content">Naxos Voice Studio</span></a></li>
-						<li class="hero-list-3"><a href=""><span class="overlay"></span><span class="overlay-content">Secure Account Access</span></a></li>
-						<li class="hero-list-4"><a href=""><span class="overlay"></span><span class="overlay-content">Walter A. Furman Company</span></a></li>
-					</ul>
-				</div>
+				stuff
 
 			</div>
 

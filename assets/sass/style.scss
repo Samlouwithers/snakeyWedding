@@ -15,7 +15,7 @@
 /* A Linux- and Windows-friendly sans-serif font stack: http://prospects.mhurrell.co.uk/post/updating-the-helvetica-font-stack */
 body {
   /*background: #F5F5F5;*/
-  background: goldenrod;
+  background: white;
   font: 13px Helmet, Freesans, sans-serif;
   //padding: 65px 0 0;
 }
@@ -56,7 +56,7 @@ h2,
 h3,
 h4,
 h5,
-h6 { font-family: 'Patua One', cursive; }
+h6 { font-family: 'Playball', cursive; }
 
 
 
@@ -78,40 +78,36 @@ nav {
 
     li { 
       float: left;
-      width: 20%;
 
       a {
         border-bottom: 1px solid #999;
         color: #666;
         display: block;
         font-family: 'Raleway', sans-serif;
-        font-size: 20px;
+        font-size: 18px;
         font-weight: 300;
         height: 60px;
-        letter-spacing: -1px;
-        line-height: 60px;  
+        line-height: 60px;
+        padding: 0 20px; 
         text-align: center;
         text-decoration: none;
         @include transition(all,0.2s,ease);
       }
 
       a:hover {
-        background-color: #FFDFD4;
-        border-color: #FF5722;
-        color: #FF5722;        
+        background-color: #FCC6C3;
+        border-color: #FF5252;
+        color: #FF5252;        
       }
     }
 
     li.title {
-      margin-right: 20%;
-      width: 20%;
+      margin-right: 10%;
 
       a {
-        font-family: 'Patua One', cursive;
+        font-family: 'Playball', cursive;
         font-size: 30px;
-        letter-spacing: 3px;
         text-align: left;
-        text-transform: uppercase;
         //text-shadow: 0 -1px 0 #000;
       }
       a:hover {
@@ -137,7 +133,7 @@ header {
   position: relative;
   
   .video-overlay {
-    background-color: rgba(245, 245, 245, 0.75);
+    background-color: rgba(245, 245, 245, 0.8);
     position: absolute;
     width: 100%;
     height: 100vh;
@@ -169,6 +165,18 @@ header {
     }
   }
 
+  .wreath {
+    text-align: center;
+    position:realative;
+    img {
+      max-width: 805px; 
+      //responsive
+      //width: 95%;
+      //margin-top: 20%;
+    }
+
+  }
+
   .wrapper {
 
     z-index: 9998;
@@ -176,8 +184,9 @@ header {
     a.main_title {
       color: #333;
       display: block;
-      margin: 0 0 100px;
+      margin: 0;
       padding: 40px 125px 0;
+      background-size: cover;
       text-align: center;
       text-decoration: none;
       @include transition(all,0.2s,ease);
@@ -188,8 +197,6 @@ header {
         letter-spacing: -1px;
         line-height: 53px; 
         margin: 0 0 10px;
-        text-shadow: 0 -1px 0 #7F2B11;
-        text-transform: uppercase;
         @include transition(all,0.2s,ease);
 
         span.greyed_out {
@@ -207,7 +214,13 @@ header {
       }
     }
 
-    .selected-work {
+    .wreath {
+      //background-image: url(../img/wreath.png);
+      //background-size: 100% 100%;
+      //background-repeat: no-repeat;
+      //height: 700px;
+      //width: 100%;
+      //text-align: center;
 
       .left { 
         float: left;

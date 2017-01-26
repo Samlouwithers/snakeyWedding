@@ -15,8 +15,14 @@ gulp.task('connect', function() {
     });
 });
 
+gulp.task('html', function () {
+  return gulp.src('index.php')
+  .pipe(connect.reload());
+});
+
 gulp.task('watch', function () {
   	gulp.watch('./assets/sass/**/*.scss', ['styles']);
+    gulp.watch('index.php', ['html']);
   	//livereload.listen();
 });
  
