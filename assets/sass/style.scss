@@ -108,7 +108,6 @@ nav {
         font-family: 'Playball', cursive;
         font-size: 30px;
         text-align: left;
-        //text-shadow: 0 -1px 0 #000;
       }
       a:hover {
         /*background-color: #f5f5f5;
@@ -167,209 +166,134 @@ header {
 
   .wreath {
     text-align: center;
-    position:realative;
     img {
-      max-width: 805px; 
-      //responsive
-      //width: 95%;
-      //margin-top: 20%;
+      max-height: 80vh;
     }
-
-  }
-
-  .wrapper {
-
-    z-index: 9998;
-
-    a.main_title {
-      color: #333;
-      display: block;
-      margin: 0;
-      padding: 40px 125px 0;
-      background-size: cover;
-      text-align: center;
-      text-decoration: none;
-      @include transition(all,0.2s,ease);
-
-      h1 {
-        color: #FF5722;
-        font-size: 53px;
-        letter-spacing: -1px;
-        line-height: 53px; 
-        margin: 0 0 10px;
-        @include transition(all,0.2s,ease);
-
-        span.greyed_out {
-          color: #333;
-          text-shadow: 0 -1px 0 #000;
-          @include transition(all,0.2s,ease);
-        }
-      }
-
-      h2 {
-        color: #666;
-        font-size: 30px;
-        font-weight: 300;
-        line-height: 30px;
-      }
-    }
-
-    .wreath {
-      //background-image: url(../img/wreath.png);
-      //background-size: 100% 100%;
-      //background-repeat: no-repeat;
-      //height: 700px;
-      //width: 100%;
-      //text-align: center;
-
-      .left { 
-        float: left;
-        width: 40%;
-      }
-      .right { 
-        float: right;
-        width: 60%;
-      }
-
-      ul {
-        li { 
-          float: left; 
-          margin: 0 0 20px 3%;
-          width: 47%;
-
-          a {
-            background-repeat: no-repeat;
-            background-position: center center;
-            display: block;
-            height: 190px;
-            position: relative;
-            @include transition(all,0.2s,ease);
-
-            .overlay,
-            .overlay-content {
-              bottom: 0;
-              color: #fff;
-              font-family: 'Raleway', sans-serif;
-              opacity: 0;
-              position: absolute;
-              text-align: center;
-              top: 0;
-              @include transition(all,0.2s,ease);
-              width: 100%;
-              z-index: 9998;
-            }
-
-            .overlay-content {
-              z-index: 9999;
-            }
-
-          }
-
-          a:hover {
-            .overlay { opacity: 0.75; }
-            .overlay-content { opacity: 1; }
-          }
-        }
-
-        li.hero-list-1 a {
-          background-color: #370028;
-          background-image: url(../img/work_list_1.png);
-        }
-
-        li.hero-list-1 a:hover .overlay { background: #370028; }
-
-        li.hero-list-1 a .overlay-content,
-        li.hero-list-1 a:hover .overlay-content { 
-          font-size: 25px;
-          padding: 80px 0 0;
-        }
-
-
-        li.hero-list-2 a {
-          background-color: #2d3343;
-          background-image: url(../img/work_list_2.png);
-        }
-
-        li.hero-list-2 a:hover .overlay { background: #606d8f; }
-
-        li.hero-list-2 a .overlay-content,
-        li.hero-list-2 a:hover .overlay-content { 
-          font-size: 25px;
-          padding: 80px 0 0;
-        }
-
-
-        li.hero-list-3 a {
-          background-color: #2C3E50;
-          background-image: url(../img/work_list_3.png);
-        }
-
-        li.hero-list-3 a:hover .overlay { 
-          background: #2C3E50; 
-          opacity: 0.85;
-        }
-
-        li.hero-list-3 a .overlay-content,
-        li.hero-list-3 a:hover .overlay-content { 
-          font-size: 25px;
-          padding: 61px 25px 0;
-        }
-
-
-        li.hero-list-4 a {
-          background-color: #fdd900;
-          background-image: url(../img/work_list_4.png);
-        }
-
-        li.hero-list-4 a:hover .overlay { 
-          background: #fdd900; 
-          opacity: 0.9;
-        }
-
-        li.hero-list-4 a .overlay-content,
-        li.hero-list-4 a:hover .overlay-content { 
-          color: #000;
-          font-size: 25px;
-          padding: 61px 25px 0;
-        }
-
-      }
-
-      ul.featured {
-        li {
-          margin: 0; 
-          width: 100%; 
-
-          a {
-            background-color: #333;
-            background-image: url(../img/work_list_featured.png);
-            background-repeat: no-repeat;
-            background-position: center top;
-            height: 400px;
-          }
-
-          a:hover { background-color: #666; }
-
-        }
-      }
-
-    }
-
   }
 
 }
-
 
 
 /* Sub-sections
 -------------------------------------------------------------------------------*/
-#work,
-#contact {
+
+#event_info {
   background: #FFDFD4;
   color: #fff;
 }
 
+#story,
+#event_info,
+#wedding_party {
+  h1 {
+    font-size:42px;
+  }
+}
 
+
+/* Wedding Party
+-------------------------------------------------------------------------------*/
+#wedding_party {
+  .wrapper {
+    position: relative;
+  }
+  background-color: #d7dce0;
+  h1 {
+    text-align: center;
+    margin: 20px 0;
+  }
+  ul {
+    text-align: center;
+    li {
+      display:inline-block;
+      text-align: left;
+      width: 150px;
+      margin: -190px 0 0 0;
+      @include transition(all,0.2s,ease-in);
+    }
+    &.first > li {
+      margin-top:0px;
+    }
+    &.second {
+      margin-left: 0px;
+    }
+    &.third {
+      margin-left: 0px;
+    }
+  }
+
+  .hexagon {
+    overflow: hidden;
+    visibility: hidden;
+    -webkit-transform: rotate(120deg);
+       -moz-transform: rotate(120deg);
+        -ms-transform: rotate(120deg);
+         -o-transform: rotate(120deg);
+            transform: rotate(120deg);
+    cursor: pointer;
+    width: 150px;
+    height: 400px;
+    margin: -80px 0 0 20px;
+  }
+
+  .hexagon-in1 {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    -webkit-transform: rotate(-60deg);
+       -moz-transform: rotate(-60deg);
+        -ms-transform: rotate(-60deg);
+         -o-transform: rotate(-60deg);
+            transform: rotate(-60deg);
+  }
+
+  .hexagon-in2 {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-image: url("../img/WeddingPartySprite.jpg");
+    visibility: visible;
+    -webkit-transform: rotate(-60deg);
+       -moz-transform: rotate(-60deg);
+        -ms-transform: rotate(-60deg);
+         -o-transform: rotate(-60deg);
+            transform: rotate(-60deg);
+    //@include transition(all,0.2s,ease-in-out);
+
+    .hex-overlay {
+      //opacity: 0;
+      width: 100%;
+      height: 100%;
+      background-repeat: no-repeat;
+      background-image: url("../img/WeddingPartySprite.jpg");
+      opacity: 1;
+      @include transition(all,0.2s,ease-in-out);
+      &:hover {
+        opacity: 0;
+      }
+    }
+  }
+
+  .laura {
+    background-position:0 0;
+    
+    .hex-overlay { 
+      background-position:-150px 0; 
+    }    
+  }
+
+  .corie {
+    background-position: 0 -365px;
+    &:hover {
+      background-position: -150px -375px;
+    }
+  }
+
+  .green {
+    background-color: #76b6c4;
+    background-image: none;
+  }
+}
 
 /* Media queries
 -------------------------------------------------------------------------------*/

@@ -56,9 +56,9 @@
 		
 			<ul>
 				<li class="title"><a href="index">&hearts; August 18 &hearts;</a></li>
-				<li><a href="work">Our Story</a></li>
-				<li><a href="about">Event Info</a></li>
-				<li><a href="contact">Wedding Party</a></li>
+				<li><a href="story">Our Story</a></li>
+				<li><a href="event_info">Event Info</a></li>
+				<li><a href="wedding_party">Wedding Party</a></li>
 				<li><a href="contact">RSVP</a></li>
 				<li><a href="contact">Registry</a></li>
 			</ul>
@@ -80,55 +80,66 @@
 			</video>
 		</div>
 		<div class="wreath">
-			<img src="/assets/img/wreath.png" alt="wreath">
+			<img src="/assets/img/untitled-1.png" alt="wreath">
 		</div>
-
-
-		<div class="wrapper">
-
-			<a class="main_title" href="/">
-				<h1><span class="greyed_out">Happily Ever After</h1>
-			</a>
-
-			<div class="wreath2 clearfix">
-
-				stuff
-
-			</div>
-
-		</div>
-
 	</header>
 
 
-	<section id="work" class="content">
+	<section id="story" class="content">
 
 		<div class="wrapper">
 
-			<h1>Work</h1>
+			<h1>Our Story</h1>
 
 		</div>
 
 	</section>
 
 
-	<section id="about" class="content">
+	<section id="event_info" class="content">
 
 		<div class="wrapper">
 
-			<h1>About Us</h1>
+			<h1>Event Information</h1>
 
 		</div>
 
 	</section>
 
 
-	<section id="contact" class="content">
+	<section id="wedding_party" class="content">
 
 		<div class="wrapper">
-
-			<h1>Contact</h1>
-
+			<h1>Wedding Party</h1>
+			<ul class="first">
+				<li><div class="hexagon"><div class="hexagon-in1"><div class="hexagon-in2 laura"><div class="hex-overlay"></div></div></div></div></li>
+				<li><div class="hexagon"><div class="hexagon-in1"><div class="hexagon-in2 green"><div class="hex-overlay"></div></div></div></div></li>
+				<li><div class="hexagon"><div class="hexagon-in1"><div class="hexagon-in2 corie"><div class="hex-overlay"></div></div></div></div></li>
+			</ul>
+			<ul class="second">
+				<li><div class="hexagon"><div class="hexagon-in1"><div class="hexagon-in2 green"></div></div></div></li>
+				<li><div class="hexagon"><div class="hexagon-in1"><div class="hexagon-in2"></div></div></div></li>
+				<li><div class="hexagon"><div class="hexagon-in1"><div class="hexagon-in2"></div></div></div></li>
+				<li><div class="hexagon"><div class="hexagon-in1"><div class="hexagon-in2"></div></div></div></li>
+			</ul>
+			<ul class="third">
+				<li><div class="hexagon"><div class="hexagon-in1"><div class="hexagon-in2"></div></div></div></li>
+				<li><div class="hexagon"><div class="hexagon-in1"><div class="hexagon-in2"></div></div></div></li>
+				<li><div class="hexagon"><div class="hexagon-in1"><div class="hexagon-in2 green"></div></div></div></li>
+				<li><div class="hexagon"><div class="hexagon-in1"><div class="hexagon-in2"></div></div></div></li>
+				<li><div class="hexagon"><div class="hexagon-in1"><div class="hexagon-in2"></div></div></div></li>
+			</ul>
+			<ul class="second">
+				<li><div class="hexagon"><div class="hexagon-in1"><div class="hexagon-in2"></div></div></div></li>
+				<li><div class="hexagon"><div class="hexagon-in1"><div class="hexagon-in2 green"></div></div></div></li>
+				<li><div class="hexagon"><div class="hexagon-in1"><div class="hexagon-in2"></div></div></div></li>
+				<li><div class="hexagon"><div class="hexagon-in1"><div class="hexagon-in2 green"></div></div></div></li>
+			</ul>
+			<ul>
+				<li><div class="hexagon"><div class="hexagon-in1"><div class="hexagon-in2"></div></div></div></li>
+				<li><div class="hexagon"><div class="hexagon-in1"><div class="hexagon-in2"></div></div></div></li>
+				<li><div class="hexagon"><div class="hexagon-in1"><div class="hexagon-in2"></div></div></div></li>
+			</ul>
 		</div>
 
 	</section>

@@ -346,144 +346,102 @@ header {
       background-color: #3d4b55;
       background-size: cover; }
   header .wreath {
-    text-align: center;
-    position: realative; }
+    text-align: center; }
     header .wreath img {
-      max-width: 805px; }
-  header .wrapper {
-    z-index: 9998; }
-    header .wrapper a.main_title {
-      color: #333;
-      display: block;
-      margin: 0;
-      padding: 40px 125px 0;
-      background-size: cover;
-      text-align: center;
-      text-decoration: none;
-      -moz-transition: all 0.2s ease;
-      -o-transition: all 0.2s ease;
-      -webkit-transition: all 0.2s ease;
-      transition: all 0.2s ease; }
-      header .wrapper a.main_title h1 {
-        color: #FF5722;
-        font-size: 53px;
-        letter-spacing: -1px;
-        line-height: 53px;
-        margin: 0 0 10px;
-        -moz-transition: all 0.2s ease;
-        -o-transition: all 0.2s ease;
-        -webkit-transition: all 0.2s ease;
-        transition: all 0.2s ease; }
-        header .wrapper a.main_title h1 span.greyed_out {
-          color: #333;
-          text-shadow: 0 -1px 0 #000;
-          -moz-transition: all 0.2s ease;
-          -o-transition: all 0.2s ease;
-          -webkit-transition: all 0.2s ease;
-          transition: all 0.2s ease; }
-      header .wrapper a.main_title h2 {
-        color: #666;
-        font-size: 30px;
-        font-weight: 300;
-        line-height: 30px; }
-    header .wrapper .wreath .left {
-      float: left;
-      width: 40%; }
-    header .wrapper .wreath .right {
-      float: right;
-      width: 60%; }
-    header .wrapper .wreath ul li {
-      float: left;
-      margin: 0 0 20px 3%;
-      width: 47%; }
-      header .wrapper .wreath ul li a {
-        background-repeat: no-repeat;
-        background-position: center center;
-        display: block;
-        height: 190px;
-        position: relative;
-        -moz-transition: all 0.2s ease;
-        -o-transition: all 0.2s ease;
-        -webkit-transition: all 0.2s ease;
-        transition: all 0.2s ease; }
-        header .wrapper .wreath ul li a .overlay,
-        header .wrapper .wreath ul li a .overlay-content {
-          bottom: 0;
-          color: #fff;
-          font-family: 'Raleway', sans-serif;
-          opacity: 0;
-          position: absolute;
-          text-align: center;
-          top: 0;
-          -moz-transition: all 0.2s ease;
-          -o-transition: all 0.2s ease;
-          -webkit-transition: all 0.2s ease;
-          transition: all 0.2s ease;
-          width: 100%;
-          z-index: 9998; }
-        header .wrapper .wreath ul li a .overlay-content {
-          z-index: 9999; }
-      header .wrapper .wreath ul li a:hover .overlay {
-        opacity: 0.75; }
-      header .wrapper .wreath ul li a:hover .overlay-content {
-        opacity: 1; }
-    header .wrapper .wreath ul li.hero-list-1 a {
-      background-color: #370028;
-      background-image: url(../img/work_list_1.png); }
-    header .wrapper .wreath ul li.hero-list-1 a:hover .overlay {
-      background: #370028; }
-    header .wrapper .wreath ul li.hero-list-1 a .overlay-content,
-    header .wrapper .wreath ul li.hero-list-1 a:hover .overlay-content {
-      font-size: 25px;
-      padding: 80px 0 0; }
-    header .wrapper .wreath ul li.hero-list-2 a {
-      background-color: #2d3343;
-      background-image: url(../img/work_list_2.png); }
-    header .wrapper .wreath ul li.hero-list-2 a:hover .overlay {
-      background: #606d8f; }
-    header .wrapper .wreath ul li.hero-list-2 a .overlay-content,
-    header .wrapper .wreath ul li.hero-list-2 a:hover .overlay-content {
-      font-size: 25px;
-      padding: 80px 0 0; }
-    header .wrapper .wreath ul li.hero-list-3 a {
-      background-color: #2C3E50;
-      background-image: url(../img/work_list_3.png); }
-    header .wrapper .wreath ul li.hero-list-3 a:hover .overlay {
-      background: #2C3E50;
-      opacity: 0.85; }
-    header .wrapper .wreath ul li.hero-list-3 a .overlay-content,
-    header .wrapper .wreath ul li.hero-list-3 a:hover .overlay-content {
-      font-size: 25px;
-      padding: 61px 25px 0; }
-    header .wrapper .wreath ul li.hero-list-4 a {
-      background-color: #fdd900;
-      background-image: url(../img/work_list_4.png); }
-    header .wrapper .wreath ul li.hero-list-4 a:hover .overlay {
-      background: #fdd900;
-      opacity: 0.9; }
-    header .wrapper .wreath ul li.hero-list-4 a .overlay-content,
-    header .wrapper .wreath ul li.hero-list-4 a:hover .overlay-content {
-      color: #000;
-      font-size: 25px;
-      padding: 61px 25px 0; }
-    header .wrapper .wreath ul.featured li {
-      margin: 0;
-      width: 100%; }
-      header .wrapper .wreath ul.featured li a {
-        background-color: #333;
-        background-image: url(../img/work_list_featured.png);
-        background-repeat: no-repeat;
-        background-position: center top;
-        height: 400px; }
-      header .wrapper .wreath ul.featured li a:hover {
-        background-color: #666; }
+      max-height: 80vh; }
 
 /* Sub-sections
 -------------------------------------------------------------------------------*/
-#work,
-#contact {
+#event_info {
   background: #FFDFD4;
   color: #fff; }
+
+#story h1,
+#event_info h1,
+#wedding_party h1 {
+  font-size: 42px; }
+
+/* Wedding Party
+-------------------------------------------------------------------------------*/
+#wedding_party {
+  background-color: #d7dce0; }
+  #wedding_party .wrapper {
+    position: relative; }
+  #wedding_party h1 {
+    text-align: center;
+    margin: 20px 0; }
+  #wedding_party ul {
+    text-align: center; }
+    #wedding_party ul li {
+      display: inline-block;
+      text-align: left;
+      width: 150px;
+      margin: -190px 0 0 0;
+      -moz-transition: all 0.2s ease-in;
+      -o-transition: all 0.2s ease-in;
+      -webkit-transition: all 0.2s ease-in;
+      transition: all 0.2s ease-in; }
+    #wedding_party ul.first > li {
+      margin-top: 0px; }
+    #wedding_party ul.second {
+      margin-left: 0px; }
+    #wedding_party ul.third {
+      margin-left: 0px; }
+  #wedding_party .hexagon {
+    overflow: hidden;
+    visibility: hidden;
+    -webkit-transform: rotate(120deg);
+    -moz-transform: rotate(120deg);
+    -ms-transform: rotate(120deg);
+    -o-transform: rotate(120deg);
+    transform: rotate(120deg);
+    cursor: pointer;
+    width: 150px;
+    height: 400px;
+    margin: -80px 0 0 20px; }
+  #wedding_party .hexagon-in1 {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    -webkit-transform: rotate(-60deg);
+    -moz-transform: rotate(-60deg);
+    -ms-transform: rotate(-60deg);
+    -o-transform: rotate(-60deg);
+    transform: rotate(-60deg); }
+  #wedding_party .hexagon-in2 {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-image: url("../img/WeddingPartySprite.jpg");
+    visibility: visible;
+    -webkit-transform: rotate(-60deg);
+    -moz-transform: rotate(-60deg);
+    -ms-transform: rotate(-60deg);
+    -o-transform: rotate(-60deg);
+    transform: rotate(-60deg); }
+    #wedding_party .hexagon-in2 .hex-overlay {
+      width: 100%;
+      height: 100%;
+      background-repeat: no-repeat;
+      background-image: url("../img/WeddingPartySprite.jpg");
+      opacity: 1;
+      -moz-transition: all 0.2s ease-in-out;
+      -o-transition: all 0.2s ease-in-out;
+      -webkit-transition: all 0.2s ease-in-out;
+      transition: all 0.2s ease-in-out; }
+      #wedding_party .hexagon-in2 .hex-overlay:hover {
+        opacity: 0; }
+  #wedding_party .laura {
+    background-position: 0 0; }
+    #wedding_party .laura .hex-overlay {
+      background-position: -150px 0; }
+  #wedding_party .corie {
+    background-position: 0 -365px; }
+    #wedding_party .corie:hover {
+      background-position: -150px -375px; }
+  #wedding_party .green {
+    background-color: #76b6c4;
+    background-image: none; }
 
 /* Media queries
 -------------------------------------------------------------------------------*/

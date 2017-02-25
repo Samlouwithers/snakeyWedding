@@ -7,6 +7,20 @@
   transition:$transition $length $timing;
 }
 
+@mixin transform($transform) {
+  -moz-transform:$transform;
+  -o-transform:$transform;
+  -webkit-transform:$transform;
+  transform:$transform;
+}
+
+@mixin rotate ($deg) {
+  @include transform(rotate(#{$deg}deg));
+}
+@mixin skew ($x, $y) {
+   @include transform(skew(#{$x}deg, #{$y}deg));
+}
+
 @mixin border-radius($radius) {
   -webkit-border-radius: $radius;
   -moz-border-radius: $radius;
