@@ -112,7 +112,7 @@
 		<div class="wrapper">
 			<h1>Wedding Party</h1>
 			<ul class="first">
-				<li><div class="hexagon"><div class="hexagon-in1"><div class="hexagon-in2 laura"><div class="hex-overlay"></div></div></div></div></li>
+				<li><div class="hexagon"><div class="hexagon-in1"><div class="hexagon-in2 laura"><div class="hex-overlay">SREJEjrioe fjdsio fjieowf jsafjiowafjiowaf sdjfasdjfksa jfisdajfiosaejf isdjfiasdfjiosa fjisda fjsdiafjiasghiowagjvisavnieajfiowae fjiase isadfjsad fjisda isdoa fsdjaf jsdaf jsiodfjisoa</div></div></div></div></li>
 				<li><div class="hexagon"><div class="hexagon-in1"><div class="hexagon-in2 green"><div class="hex-overlay"></div></div></div></div></li>
 				<li><div class="hexagon"><div class="hexagon-in1"><div class="hexagon-in2 corie"><div class="hex-overlay"></div></div></div></div></li>
 			</ul>
