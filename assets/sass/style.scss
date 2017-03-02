@@ -200,7 +200,7 @@ header {
   background-color: #d7dce0;
   h1 {
     text-align: center;
-    margin: 20px 0;
+    margin: 20px 0 0;
   }
   ul {
     text-align: center;
@@ -251,7 +251,7 @@ header {
     width: 100%;
     height: 100%;
     background-repeat: no-repeat;
-    background-image: url("../img/WeddingPartySprite.jpg");
+    background-image: url("../img/weddingPartyPeople.jpg");
     visibility: visible;
     -webkit-transform: rotate(-60deg);
        -moz-transform: rotate(-60deg);
@@ -264,29 +264,63 @@ header {
       //opacity: 0;
       width: 100%;
       height: 100%;
+      line-height: 400px;
+      font-size: 22px;
+      text-align: center;
+      font-family: 'Playball', cursive;
       background-repeat: no-repeat;
-      background-image: url("../img/WeddingPartySprite.jpg");
-      opacity: 1;
+      background-image: url("../img/weddingPartyPeople.jpg");
+      opacity: 0;
       @include transition(all,0.2s,ease-in-out);
       &:hover {
-        opacity: 0;
+        opacity: 1;
       }
     }
   }
 
-  .laura {
-    background-position:0 0;
-    
-    .hex-overlay { 
-      background-position:-150px 0; 
-    }    
+  .kristin {
+    background-position:-150px 0;
   }
 
   .corie {
-    background-position: 0 -365px;
-    &:hover {
-      background-position: -150px -375px;
-    }
+    background-position: -300px 0;
+  }
+
+  .kBrooke {
+    background-position: -450px 0;
+  }
+  .emmy {
+    background-position: -600px 0;
+  }
+  .laura {
+    background-position: -750px 0;
+  }
+  .brittany {
+    background-position: -900px 0;
+  }
+  .eric {
+    background-position: -1050px 0;
+  }
+  .brian {
+    background-position: -1200px 0;
+  }
+  .devin {
+    background-position: -1350px 0;
+  }
+  .sammy {
+    background-position: -1500px 0;
+  }
+  .steveo {
+    background-position: -1650px 0;
+  }
+  .broc {
+    background-position: -1800px 0;
+  }
+  .starsky {
+    background-position: -1950px 0;
+  }
+  .teddy {
+    background-position: -2100px 0;
   }
 
   .green {

@@ -112,33 +112,33 @@
 		<div class="wrapper">
 			<h1>Wedding Party</h1>
 			<ul class="first">
-				<li><div class="hexagon"><div class="hexagon-in1"><div class="hexagon-in2 laura"><div class="hex-overlay">SREJEjrioe fjdsio fjieowf jsafjiowafjiowaf sdjfasdjfksa jfisdajfiosaejf isdjfiasdfjiosa fjisda fjsdiafjiasghiowagjvisavnieajfiowae fjiase isadfjsad fjisda isdoa fsdjaf jsdaf jsiodfjisoa</div></div></div></div></li>
-				<li><div class="hexagon"><div class="hexagon-in1"><div class="hexagon-in2 green"><div class="hex-overlay"></div></div></div></div></li>
-				<li><div class="hexagon"><div class="hexagon-in1"><div class="hexagon-in2 corie"><div class="hex-overlay"></div></div></div></div></li>
+				<li><div class="hexagon"><div class="hexagon-in1"><div class="hexagon-in2 kristin"><div class="hex-overlay">Kristin Withers</div></div></div></div></li>
+				<li><div class="hexagon"><div class="hexagon-in1"><div class="hexagon-in2 green"></div></div></div></li>
+				<li><div class="hexagon"><div class="hexagon-in1"><div class="hexagon-in2 corie"><div class="hex-overlay">Corie McLaughlin</div></div></div></div></li>
 			</ul>
 			<ul class="second">
 				<li><div class="hexagon"><div class="hexagon-in1"><div class="hexagon-in2 green"></div></div></div></li>
-				<li><div class="hexagon"><div class="hexagon-in1"><div class="hexagon-in2"></div></div></div></li>
-				<li><div class="hexagon"><div class="hexagon-in1"><div class="hexagon-in2"></div></div></div></li>
-				<li><div class="hexagon"><div class="hexagon-in1"><div class="hexagon-in2"></div></div></div></li>
+				<li><div class="hexagon"><div class="hexagon-in1"><div class="hexagon-in2 kBrooke"><div class="hex-overlay">K.Brooke Nagel</div></div></div></div></li>
+				<li><div class="hexagon"><div class="hexagon-in1"><div class="hexagon-in2 emmy"><div class="hex-overlay">Emmy Campbell</div></div></div></div></li>
+				<li><div class="hexagon"><div class="hexagon-in1"><div class="hexagon-in2 laura"><div class="hex-overlay">Laura Millar</div></div></div></div></li>
 			</ul>
 			<ul class="third">
-				<li><div class="hexagon"><div class="hexagon-in1"><div class="hexagon-in2"></div></div></div></li>
-				<li><div class="hexagon"><div class="hexagon-in1"><div class="hexagon-in2"></div></div></div></li>
+				<li><div class="hexagon"><div class="hexagon-in1"><div class="hexagon-in2 brittany"><div class="hex-overlay">Brittany Falcone</div></div></div></div></li>
+				<li><div class="hexagon"><div class="hexagon-in1"><div class="hexagon-in2 eric"><div class="hex-overlay">Eric Peterson</div></div></div></div></li>
 				<li><div class="hexagon"><div class="hexagon-in1"><div class="hexagon-in2 green"></div></div></div></li>
-				<li><div class="hexagon"><div class="hexagon-in1"><div class="hexagon-in2"></div></div></div></li>
-				<li><div class="hexagon"><div class="hexagon-in1"><div class="hexagon-in2"></div></div></div></li>
+				<li><div class="hexagon"><div class="hexagon-in1"><div class="hexagon-in2 brian"><div class="hex-overlay">Brian George</div></div></div></div></li>
+				<li><div class="hexagon"><div class="hexagon-in1"><div class="hexagon-in2 devin"><div class="hex-overlay">Devin George</div></div></div></div></li>
 			</ul>
 			<ul class="second">
-				<li><div class="hexagon"><div class="hexagon-in1"><div class="hexagon-in2"></div></div></div></li>
+				<li><div class="hexagon"><div class="hexagon-in1"><div class="hexagon-in2 sammy"><div class="hex-overlay">Sammy Katz</div></div></div></div></li>
 				<li><div class="hexagon"><div class="hexagon-in1"><div class="hexagon-in2 green"></div></div></div></li>
-				<li><div class="hexagon"><div class="hexagon-in1"><div class="hexagon-in2"></div></div></div></li>
+				<li><div class="hexagon"><div class="hexagon-in1"><div class="hexagon-in2 steveo"><div class="hex-overlay">Steve Moore</div></div></div></div></li>
 				<li><div class="hexagon"><div class="hexagon-in1"><div class="hexagon-in2 green"></div></div></div></li>
 			</ul>
 			<ul>
-				<li><div class="hexagon"><div class="hexagon-in1"><div class="hexagon-in2"></div></div></div></li>
-				<li><div class="hexagon"><div class="hexagon-in1"><div class="hexagon-in2"></div></div></div></li>
-				<li><div class="hexagon"><div class="hexagon-in1"><div class="hexagon-in2"></div></div></div></li>
+				<li><div class="hexagon"><div class="hexagon-in1"><div class="hexagon-in2 broc"><div class="hex-overlay">Justin Forrest</div></div></div></div></li>
+				<li><div class="hexagon"><div class="hexagon-in1"><div class="hexagon-in2 starsky"><div class="hex-overlay">Steve Staurovsky</div></div></div></div></li>
+				<li><div class="hexagon"><div class="hexagon-in1"><div class="hexagon-in2 teddy"><div class="hex-overlay">Teddy Withers</div></div></div></div></li>
 			</ul>
 		</div>
 
